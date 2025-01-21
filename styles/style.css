@@ -108,6 +108,10 @@
     display: none;
   }
 
+  hr{
+    display: none;
+  }
+
  
 
 
@@ -143,6 +147,12 @@
         width: 30px;
         height: 30px;
     }
+
+    hr{
+      display: block;
+      border: 1px solid aqua;
+    }
+
 
 
 }
