@@ -63,6 +63,9 @@
     font-weight: 600;
   }
 
+ 
+
+
 
 
 
@@ -74,7 +77,6 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
   }
    
   .kids-logo{
@@ -91,7 +93,6 @@
   }
 
 
-
   .navlink-item{
     list-style: none;
     margin-right: 32px;
@@ -103,7 +104,48 @@
     font-size: 1.25rem;
   }
 
+  .bar-icon{
+    display: none;
+  }
 
+ 
+
+
+/* responsive code start here for navbar */
+
+@media screen and (max-width: 576px) {
+
+    .navbar{
+        width: 100%;
+        
+    }
+
+    .logo-img{
+        width: 50px;
+        height: 50px;
+        margin: 12px 20px;
+    }
+
+
+      .kids-logo-title, .navlinks-items, .primary-btn{
+        display: none;
+
+    }
+
+    .bar-icon{
+        display: block;
+        margin-right: 1rem;
+        margin: 20px 20px;
+       
+    }
+
+    .bar-icon img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+}
 
 
 
