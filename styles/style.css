@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+  }
+
+  /* shared styles of kids school */
+
+  :root{
+    --orange: #FEA301;
+    --skyblue: #01ACFD;
+    --skyblue-light:#05D4DF;
+    --favorite-color: #5D58EF;
+    --bg-color: #F7F7F7;
+    --primary-btn-color: #ffffff;
+
+  }
+
+  .bg-light-color{
+    background-color: var(--bg-color);
+  }
+
+  .display-flex{
+    display: flex;
+
+  }
+
+  .navlink-color1{
+    font-weight: 700;
+    color: var(--orange);
+  }
+
+
+  .navlink-color2{
+    font-weight: 500;
+    color: var(--skyblue);
+  }
+
+  .navlink-color3{
+    font-weight: 500;
+    color: var(--skyblue-light);
+  }
+
+  .navlink-color4{
+    font-weight: 500;
+    color: var(--favorite-color);
+  }
+
+  .primary-btn{
+    padding: 10px 60px;
+    border: none;
+    background-color: var(--orange);
+    border-radius: 12px;
+    color: var(--primary-btn-color);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+
+
+  /* navbar related styles */
+
+  .navbar{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+  }
+   
+  .kids-logo{
+    justify-content: space-between;
+    align-items: center;
+    width: 202px;
+    height: 62px;
+  }
+
+  .kids-logo-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 18px;
+  }
+
+
+
+  .navlink-item{
+    list-style: none;
+    margin-right: 32px;
+
+  }
+
+  .navlink-name{
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
