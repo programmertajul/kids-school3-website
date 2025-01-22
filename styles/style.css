@@ -266,6 +266,33 @@
 
   }
 
+  .card-button2{
+    color: #F0AA00;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+
+
+  }
+
+  .card-button3{
+    color: #8700FF;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+
+
+  }
+
+
+  /* .first-parent{
+    text-align: center;
+    border: 1px solid red;
+    margin: 0 auto;
+  } */
+
   .icon-parent{
     width: 130px;
     height:130px;
@@ -273,15 +300,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 60px auto;
+  
   }
 
   .icon-parent div{
-    color: white;
+    color: #ffffff;
     width: 60px;
     height: 60Px;
     background-color: var(--orange);
-    border-radius: 30px;
-    font-size: 35px;
+    border-radius: 50%;
+    font-size: 45px;
     text-align: center;
 
   }
@@ -375,6 +404,25 @@
       width: 92%;
       height: auto;
   
+    }
+
+    /* card section related responsive code */
+
+
+    .card-title{
+      margin: 30px auto;
+    }
+
+    .card-container{
+      flex-direction: column;
+    }
+
+    .single-card{
+      margin: 3px 25px;
+    }
+
+    .icon-parent{
+      display: none;
     }
 
 
