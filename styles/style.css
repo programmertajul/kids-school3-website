@@ -21,12 +21,14 @@
     --bg-color: #F7F7F7;
     --primary-btn-color: #ffffff;
     --black-color:#111111;
+    --card-description-color:#808080;
+
 
   }
 
-  .bg-light-color{
+  /* .bg-light-color{
     background-color: var(--bg-color);
-  }
+  } */
 
   .display-flex{
     display: flex;
@@ -174,6 +176,116 @@
     width: 29.26rem;
     height: 35.93rem;
   }
+
+  /* standard curriculam style code start here */
+
+  /* main > section{
+    background-color: var(--bg-color);
+  } */
+  .card-section-parent{
+    background-image: url(../assets/bg.png);
+  }
+
+  .card-title{
+    text-align: center;
+    margin: 60px 0 80px 0;
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--black-color);
+
+  }
+
+
+  .card-container{
+    max-width: 1160px;
+    margin: 0 auto;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+
+
+
+  }
+
+  .single-card{
+    text-align: center;
+    
+    padding: 35px 15px;
+    box-shadow: 1px 1px 5px gray;
+    
+    border-radius: 20px;
+
+  }
+
+  .single-card-gradient1{
+    background: linear-gradient( #def5ff, #ffffff, #ffffff, #ffffff);
+  }
+
+  .single-card-gradient2{
+    background: linear-gradient(#FFF4DC, #ffffff, #ffffff);
+  }
+
+
+
+  .single-card-gradient3{
+    background: linear-gradient(#F2E8FF,#ffffff,#ffffff);
+  }
+
+  .single-card-img{
+    width: 136px;
+    height: 136px;
+    /* margin: 52px 115px 32px 115px; */
+
+  }
+
+  .card-name{
+    font-size: 24px;
+    font-weight: 700;
+
+  }
+
+  .card-description{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--card-description-color);
+    margin: 30px 0 35px 0;
+
+  }
+
+  .card-button{
+    color: #64C8FF;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+
+
+  }
+
+  .icon-parent{
+    width: 130px;
+    height:130px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon-parent div{
+    color: white;
+    width: 60px;
+    height: 60Px;
+    background-color: var(--orange);
+    border-radius: 30px;
+    font-size: 35px;
+    text-align: center;
+
+  }
+
 
 
 
