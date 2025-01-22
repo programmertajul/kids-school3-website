@@ -20,6 +20,7 @@
     --favorite-color: #5D58EF;
     --bg-color: #F7F7F7;
     --primary-btn-color: #ffffff;
+    --black-color:#111111;
 
   }
 
@@ -53,7 +54,7 @@
     color: var(--favorite-color);
   }
 
-  .primary-btn{
+  .navbar-btn{
     padding: 10px 60px;
     border: none;
     background-color: var(--orange);
@@ -62,6 +63,17 @@
     font-size: 20px;
     font-weight: 600;
   }
+
+   .primary-btn{
+    background-color: var(--black-color);
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-btn-color);
+    border: none;
+
+  } 
 
  
 
@@ -75,6 +87,7 @@
   .navbar{
     max-width: 1160px;
     margin: 0 auto;
+    padding: 20px 0;
     justify-content: space-between;
     align-items: center;
   }
@@ -112,7 +125,57 @@
     display: none;
   }
 
- 
+
+  /* banner related style code start here */
+
+
+   .banner{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-container{
+
+    margin-bottom: 70px;
+    width: 40rem;
+    height: 20.57rem;
+    
+  }
+
+  .banner-title{
+    font-weight: 700;
+    font-size: 56px;
+  }
+
+  .banner{
+    color:var(--orange);
+  }
+
+
+  .banner-title-color2{
+    color:var(--black-color);
+  }
+
+
+  .banner-title-color3{
+    color:var(--skyblue);
+  }
+
+
+  .banner-description{
+    margin: 24px 0;
+    font-size: 1.25rem;
+  }
+
+  .banner-img-container{
+    width: 29.26rem;
+    height: 35.93rem;
+  }
+
+
 
 
 /* responsive code start here for navbar */
@@ -131,7 +194,7 @@
     }
 
 
-      .kids-logo-title, .navlinks-items, .primary-btn{
+      .kids-logo-title, .navlinks-items, .navbar-btn{
         display: none;
 
     }
@@ -153,6 +216,54 @@
       border: 1px solid aqua;
     }
 
+    /* banner related responsive code */
+    .banner{
+      width: 100%;
+      flex-direction: column-reverse;
+
+      
+  
+    }
+      .banner-container{
+      width: 92%;
+      text-align: center;
+      height: auto;
+    
+      
+      
+      
+    }
+
+    .banner-title{
+      font-size: 32px;
+      font-weight: 700;
+    
+    }
+
+    .banner-description{
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--black-color);
+      margin: 18px 0px;
+    }
+
+    .primary-btn{
+      padding: 6px 24px;
+    }
+    
+    
+    .banner-img-container{
+      width: 92%;
+      text-align: center;
+      height: auto;
+
+     
+    } 
+    .banner-img-container img{
+      width: 92%;
+      height: auto;
+  
+    }
 
 
 }
