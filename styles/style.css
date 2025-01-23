@@ -661,6 +661,18 @@
       display: block;
     }
 
+    /*  for footer style responsive */
+
+    .footers-container{
+      flex-direction: column;
+    }
+
+    .last-single-footer{
+      margin-top: 15px;
+    }
+
+
+
   } 
 
 
