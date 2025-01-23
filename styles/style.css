@@ -22,6 +22,7 @@
     --primary-btn-color: #ffffff;
     --black-color:#111111;
     --card-description-color:#808080;
+    --footer-color:#01ACFD;
 
 
   }
@@ -459,8 +460,79 @@
    
   }
 
-  
 
+
+  /* footer section code is here for style*/
+
+  .footer-class{
+    background-color:var(--footer-color);
+
+  }
+
+
+  .footers-container{
+    max-width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #ffffff;
+    padding-bottom: 65px;
+/* 
+    margin: 140px 123px 228px 175px; */
+    
+  
+  }
+
+  .single-footer1{
+    margin-top: 30px;
+  }
+
+
+.single-footer-img{
+  width: 299px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-footer-img img{
+  width: 82px;
+  height: 82px;
+  
+}
+
+.footer-headline{
+  width: 206px;
+  height: 82px;
+  font-size: 35px;
+  font-weight: 700px;
+
+}
+
+.footer-description{
+  width: 399px;
+  font-size: 20px;
+
+}
+
+.about-shool{
+  font-size: 25px;
+}
+
+.keep-in{
+  font-size: 25px;
+}
+
+.single-footer2 p a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.last-single-footer{
+  margin-top: -100px;
+}
 
 
 /* responsive code start here for navbar */
