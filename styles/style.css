@@ -77,6 +77,29 @@
 
   } 
 
+  /* .single-story{
+    position: relative;
+
+  } */
+
+  .single-story-btn{
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 46px;
+    background-color: #95B226;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    top: 150px;
+    left: 37px; 
+
+  }
+
+
+  .single-small-story-btn{
+    background-color: #5D58F0;
+  }
  
 
 
@@ -170,6 +193,7 @@
   .banner-description{
     margin: 24px 0;
     font-size: 1.25rem;
+    color: var(--black-color);
   }
 
   .banner-img-container{
@@ -325,13 +349,13 @@
 
   .our-stories-container-parent{
     background-image: url(../assets/bg.png);
-    /* background: linear-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #FEA301, #FEA301); */
   }
 
   .our-stories-title{
     text-align: center;
     font-weight: 700;
     font-size: 46px;
+    margin: 60px 0 80px 0;
   }
 
   .bigger-story-container{
@@ -343,13 +367,14 @@
 
   .big-story-img-parent{
     width: 540px;
-    height: 633px;
+    height: 625px;
 
   }
 
   .single-story1{
     box-shadow: 1px 1px 5px gray;
     border-radius: 16px;
+    position: relative;
   }
 
   .text-container-of-stories{
@@ -369,6 +394,19 @@
     color: #666666;
   }
 
+  .single-story1-btn{
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 46px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    top: 317px;
+    left: 38px;
+  }
+
 
   .our-stories-container{
 
@@ -380,7 +418,12 @@
 
     box-shadow: 1px 1px 5px gray;
     border-radius: 16px;
+    position: relative;
 
+  }
+
+  .single-story-duplicate{
+    display: none;
   }
 
   .our-stories-pic-title{
@@ -397,9 +440,6 @@
 
   }
 
-  /* .our-stories-pic-title{
-    font-size: 20px;
-  } */
 
   .single-story-img{
     width: 291px;
@@ -407,7 +447,19 @@
     border-radius:16px 16px 0 0;
   }
 
+  .view-story-btn{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 8px;
+    background-color: var(--black-color);
+    color: #ffffff;
+    margin: 60px auto;
+    display: block;
+   
+  }
 
+  
 
 
 
@@ -453,17 +505,13 @@
     .banner{
       width: 100%;
       flex-direction: column-reverse;
-
-      
   
     }
+    
       .banner-container{
       width: 92%;
       text-align: center;
       height: auto;
-    
-      
-      
       
     }
 
@@ -517,8 +565,37 @@
       display: none;
     }
 
+    /* our stories related responsive code start here */
+    .our-stories-title{
+      font-size: 30px;
+    }
 
-}
+   .our-stories-container{ 
+    width: 100%;
+    margin: 0 20px;
+    gap: 15px;
+  
+
+    }
+
+    .our-stories-pic-title{
+      font-size: 9px;
+    }
+   .big-story-img-parent{
+    display: none;
+   }
+
+   .single-story-duplicate{
+      display: block;
+    }
+
+  } 
+
+
+
+
+
+
 
 
 
